@@ -8,8 +8,6 @@ import AboutCards from '../components/AboutCards';
 export default function Home() {
   return (
     <Suspense fallback={null}>
-      <Navbar />
-
       <div className="flex flex-col mt-10 justify-center items-start max-w-2xl border-gray-700 mx-auto pb-16">
         <div className="flex flex-col-reverse sm:flex-row items-start">
           <div className="flex flex-col pr-8">
