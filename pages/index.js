@@ -1,5 +1,4 @@
 import { Suspense } from 'react';
-import Link from 'next/link';
 
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
@@ -8,9 +7,10 @@ import AboutCards from '../components/AboutCards';
 export default function Home() {
   return (
     <Suspense fallback={null}>
-      <div className="flex flex-col mt-10 justify-center items-start max-w-2xl border-gray-700 mx-auto pb-16">
+      <Navbar />
+      <div className="flex flex-col justify-center items-start max-w-2xl border-gray-700 mx-auto pb-16">
         <div className="flex flex-col-reverse sm:flex-row items-start">
-          <div className="flex flex-col pr-8">
+          <div className="flex flex-col pr-8 ">
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">
               Nawed Ali
             </h1>
@@ -28,11 +28,9 @@ export default function Home() {
               height={176}
               width={176}
               sizes="30vw"
-              priority
               className="rounded-full filter"
             />
           </div>
-
         </div>
 
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-white">
@@ -40,7 +38,7 @@ export default function Home() {
         </h3>
         <div className="flex gap-6 flex-col md:flex-row">
             <AboutCards
-              title="I'm a sophomore studying Computer Science and Engineering and exploring the worlds of Web.3 and Open-Source"
+              title="I'm a sophomore studying Computer Science and Engineering and exploring the worlds of Web3.0 and Open-Source"
               
               gradient="from-[#D8B4FE] to-[#818CF8]"
             />
