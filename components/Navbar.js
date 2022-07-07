@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import { useState, useEffect } from 'react';
 import NextLink from 'next/link';
+import { Link } from 'react-scroll';
 import cn from 'classnames';
 
 function NavItem({ href, text }) {
@@ -15,7 +15,7 @@ function NavItem({ href, text }) {
             isActive
               ? 'font-semibold text-gray-200'
               : 'font-normal text-gray-400',
-            'hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-800 transition-all'
+            'hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-800 transition-all text-gray-400 hover:cursor-pointer'
           )}
         >
           <span className="capsize">{text}</span>
@@ -60,8 +60,8 @@ function NavItem({ href, text }) {
             <div className=" border-gray-700 rounded-lg ml-[-0.60rem]">
               <NavItem href="/" text="Home" />
               <NavItem href="https://nawedali.hashnode.dev/" text="Blog" />
-              <NavItem href="/experiences" text="Experiences" />
-              <NavItem href="/projects" text="Projects" />
+              <Link to="experiences" spy={true} smooth={true}><p className='hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-800 transition-all text-gray-400 hover:cursor-pointer'>Experiences</p></Link>
+              <Link to="projects" spy={true} smooth={true}><p className='hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-800 transition-all text-gray-400 hover:cursor-pointer'>Projects</p></Link>
               <NavItem href="https://github.com/nawed2611" text="GitHub" />
               <NavItem href="mailto:nawed2611@gmail.com" text="Email Me" />
             </div>
