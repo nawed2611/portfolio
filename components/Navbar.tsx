@@ -60,8 +60,8 @@ export default function Container(props) {
         <meta name="twitter:image" content={meta.image} />
       </Head>
 
-      <div className="flex flex-col justify-center h-20 items-center px-8">
-        <nav className="flex items-center justify-around w-full relative max-w-2xl border-gray-700 mx-auto  sm:pb-16 text-gray-900 ">
+      <div className="flex flex-col justify-center h-16 items-center px-8">
+        <nav className="flex items-center justify-center w-full relative max-w-2xl border-gray-700 mx-auto sm:pb-2 text-gray-900 ">
           <div className="flex items-center justify-evenly w-full p-2 border-gray-700 rounded-lg ml-[-0.60rem]">
             <NavItem href="/" text="Home" />
             <NavItem href="https://nawedali.hashnode.dev/" text="Blog" />
