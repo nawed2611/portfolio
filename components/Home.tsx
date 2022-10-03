@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Home = () => {
     return (
         <div className="flex flex-col justify-center items-start max-w-2xl border-gray-700 mx-auto pb-8">
-            <div className="flex flex-col-reverse sm:flex-row items-start">
+            <div className="flex flex-col-reverse p-2 sm:flex-row items-start">
                 <div className="flex flex-col pr-8 ">
                     <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">
                         Nawed Ali
@@ -23,7 +23,7 @@ const Home = () => {
                 </div>
 
                 <div className="w-[80px] sm:w-[176px] hover:scale-[1.02] relative mb-4 sm:mb-0 mr-auto">
-                    <img src="https://pbs.twimg.com/profile_images/1559106106525626368/RgcnDz1d_400x400.jpg"
+                    <Image src="https://pbs.twimg.com/profile_images/1559106106525626368/RgcnDz1d_400x400.jpg"
                         height={176}
                         width={176}
                         sizes="30vw"

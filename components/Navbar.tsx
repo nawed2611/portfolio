@@ -16,7 +16,7 @@ function NavItem({ href, text }) {
           isActive
             ? "font-semibold text-gray-200"
             : "font-normal text-gray-400",
-          "hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-800 transition-all text-gray-400 hover:cursor-pointer"
+          "md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-800 transition-all text-gray-400 hover:cursor-pointer"
         )}
       >
         <span className="capsize">{text}</span>
@@ -61,8 +61,8 @@ export default function Container(props) {
       </Head>
 
       <div className="flex flex-col justify-center h-20 items-center px-8">
-        <nav className="flex items-center justify-between w-full relative max-w-2xl border-gray-700 mx-auto p-16 sm:pb-16  text-gray-900 ">
-          <div className=" border-gray-700 rounded-lg ml-[-0.60rem]">
+        <nav className="flex items-center justify-around w-full relative max-w-2xl border-gray-700 mx-auto  sm:pb-16 text-gray-900 ">
+          <div className="flex items-center justify-evenly w-full p-2 border-gray-700 rounded-lg ml-[-0.60rem]">
             <NavItem href="/" text="Home" />
             <NavItem href="https://nawedali.hashnode.dev/" text="Blog" />
             <Link to="experiences" spy={true} smooth={true}>
@@ -71,7 +71,7 @@ export default function Container(props) {
               </p>
             </Link>
             <Link to="projects" spy={true} smooth={true}>
-              <p className="hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-800 transition-all text-gray-400 hover:cursor-pointer">
+              <p className="md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-800 transition-all text-gray-400 hover:cursor-pointer">
                 Projects
               </p>
             </Link>

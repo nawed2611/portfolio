@@ -5,7 +5,7 @@ import AboutCards from "./AboutCards";
 const About = () => {
   return (
     <div className="flex flex-col mx-auto items-start justify-center max-w-5xl">
-      <div className="flex gap-3 w-full flex-col md:flex-row">
+      <div className="flex gap-3 w-full flex-col p-2 md:flex-row">
         <AboutCards
           title="Computer Science & Engineering student exploring the worlds of Web3.0 and Open-Source. Participated in over 20 Hackathons as a hacker, mentor and as an organizer."
           gradient="from-[#D8B4FE] to-[#818CF8]"

@@ -29,7 +29,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="flex flex-col justify-center items-start max-w-2xl mx-auto w-full mt-10 mb-8">
+    <footer className="flex p-2 flex-col justify-center items-start max-w-2xl mx-auto w-full mt-10 mb-8">
       <hr className="w-full border-1 border-gray-200 mb-8" />
       <div className="w-full max-w-2xl grid grid-cols-1 gap-4 pb-16 sm:grid-cols-4">
         <div className="flex flex-col space-y-4">
@@ -50,7 +50,7 @@ const Footer = () => {
           </ExternalLink>
         </div>
         <p className='text-gray-500'>Created by Nawed Ali Inspired by <a className='hover:underline hover:text-gray-600' href="https://leerob.io">Lee Robinson</a></p>
-      <form onSubmit={sendEmail} className="mx-2 w-44 text-gray-500 text-sm hover:text-gray-600 flex flex-col">
+      <form onSubmit={sendEmail} className="mx-2 w-44 text-gray-500 text-sm flex flex-col">
         <label>
           <h4>Name</h4>
           <input className='focus:outline-none p-1 bg-black border text-slate-100 w-full rounded-md my-2' type="text" name="name" />

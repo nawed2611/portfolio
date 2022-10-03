@@ -3,10 +3,10 @@ import React from 'react'
 const Project = () => {
     return (
         <div className='flex flex-col max-w-3xl items-start mx-auto mt-12 projects'>
-            <h1 className="font-bold text-xl md:text-5xl tracking-tight mb-1 text-white">
+            <h1 className="font-bold text-xl md:text-5xl tracking-tight mb-1 p-2 text-white">
                 My Projects
             </h1>
-            <p>Check out My <a className="hover:underline hover:opacity-80" href="https://github.com/nawed2611">GitHub</a> and <a className="hover:underline hover:opacity-80" href="https://devpost.com/nawed2611">Devpost</a> for more projects!</p>
+            <p className='p-2'>Check out My <a className="hover:underline hover:opacity-80" href="https://github.com/nawed2611">GitHub</a> and <a className="hover:underline hover:opacity-80" href="https://devpost.com/nawed2611">Devpost</a> for more projects!</p>
 
 
             <div className="rounded-md container mt-10 mx-auto p-4 md:p-0 hover:scale-110">
