@@ -58,7 +58,7 @@ const Experience = () => {
               <h1 className="mx-auto text-white font-semibold text-lg">4</h1>
             </div>
             <div className="order-1 bg-gray-900 drop-shadow-xl rounded-lg shadow-xl w-full sm:w-1/2 px-6 py-4">
-              <h3 className="mb-2 font-bold text-white text-xl">Hacker</h3>
+              <h3 className="mb-2 font-bold text-white text-xl">Hacker and Mentor</h3>
               <h4 className="mb-2 font-bold text-white text-sm italic">Major League Hacking <span className='px-2 font-light text-xs'>Feb 2022 - Present</span></h4>
               <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Took part in more than 20 Hackathons hosted and sponsored by MLH as a hacker and as a mentor. Won prizes like "Most Creative Use of Twilio", "Best use of DeSo" and much more</p>
             </div>

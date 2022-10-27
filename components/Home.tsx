@@ -11,9 +11,10 @@ const Home = () => {
                     </h1>
                     <h2 className="text-gray-200 mb-4">
                         Full-Stack Web3.0 Developer building{' '}
-                        <a href="https://www.10xfs.io/"><span className="font-semibold">Invade</span></a>                    </h2>
+                        <a href="https://www.10xfs.io/"><span className="font-semibold">Invade</span></a>
+                    </h2>
                     <p className="text-gray-400 mb-2">
-                        Auth0 Ambassador, MLH Prep Fellow
+                        Auth0 Ambassador, MLH Prep Fellow & Mentor
                     </p>
                     <p className="text-gray-400 mb-8">
                         Building awesome stuff via Open-Source, Web 3.0 and Hackathons.
@@ -23,7 +24,7 @@ const Home = () => {
                 </div>
 
                 <div className="w-[80px] sm:w-[176px] hover:scale-[1.02] relative mb-4 sm:mb-0 mr-auto">
-                    <Image src="https://pbs.twimg.com/profile_images/1559106106525626368/RgcnDz1d_400x400.jpg"
+                    <Image src="https://pbs.twimg.com/profile_images/1581990243414118400/lS6st3jH_400x400.jpg"
                         height={176}
                         width={176}
                         sizes="30vw"
