@@ -9,18 +9,18 @@ const Home = () => {
                     <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">
                         Nawed Ali
                     </h1>
-                    <h2 className="text-gray-200 mb-4">
+                    <h2 className="text-white mb-4">
                         Full-Stack Web3.0 Developer building{' '}
                         <a href="https://www.10xfs.io/"><span className="font-semibold">Invade</span></a>
                     </h2>
-                    <p className="text-gray-400 mb-2">
+                    <p className="text-gray-200 mb-2">
                         Auth0 Ambassador, MLH Prep Fellow & Mentor
                     </p>
-                    <p className="text-gray-400 mb-8">
+                    <p className="text-gray-200 mb-8">
                         Building awesome stuff via Open-Source, Web 3.0 and Hackathons.
                         Developer, Learner and Writer
                     </p>
-                    <iframe src="https://github.com/sponsors/nawed2611/button" title="Sponsor nawed2611" height="35" width="116" />
+                    <iframe src="https://github.com/sponsors/nawed2611/button" title="Sponsor nawed2611" className='border-2 rounded-lg' height="35" width="116" />
                 </div>
 
                 <div className="w-[80px] sm:w-[176px] hover:scale-[1.02] relative mb-4 sm:mb-0 mr-auto">

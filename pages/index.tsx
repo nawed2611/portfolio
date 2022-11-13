@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import Spline from '@splinetool/react-spline';
 
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
