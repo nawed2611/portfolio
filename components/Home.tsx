@@ -1,5 +1,6 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
+import Profile from '../public/profile.jpg';
 
 const Home = () => {
     return (
@@ -24,12 +25,7 @@ const Home = () => {
                 </div>
 
                 <div className="w-[80px] sm:w-[176px] hover:scale-[1.02] relative mb-4 sm:mb-0 mr-auto">
-                    <Image src="https://pbs.twimg.com/profile_images/1581990243414118400/lS6st3jH_400x400.jpg"
-                        height={176}
-                        width={176}
-                        sizes="30vw"
-                        className="rounded-full filter"
-                    />
+                    <Image src={Profile} alt="Nawed Ali" height={176} width={176} sizes="30vw" className="rounded-full filter drop-shadow-lg" />
                 </div>
             </div>
         </div>
