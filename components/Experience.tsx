@@ -8,11 +8,25 @@ const Experience = () => {
       </h1>
       <div className="container mx-auto h-full">
 
+      <div className="mb-8 mt-4 flex justify-between flex-row-reverse items-center w-full">
+            <div className="order-1 sm:w-1/4"></div>
+            <div className="z-20 mx-2 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+              <h1 className="mx-auto text-white font-semibold text-lg">1</h1>
+            </div>
+            <div className="order-1 bg-gray-900 drop-shadow-xl rounded-lg shadow-xl w-full sm:w-1/2 px-6 py-4">
+              <h3 className="mb-2 font-bold text-white text-xl">Full-Stack Developer</h3>
+              <h4 className="mb-2 font-bold text-white text-sm italic">Logizip LLC <span className='px-2 font-light text-xs'>Oct 2022 - Present</span></h4>
+              <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+                
+              </p>
+            </div>
+          </div>
+
         <div className="relative wrap overflow-hidden p-4 h-full">
           <div className="mb-8 flex justify-between items-center w-full">
             <div className="order-1 sm:w-1/4"></div>
             <div className="z-20 mx-2 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
+              <h1 className="mx-auto font-semibold text-lg text-white">2</h1>
             </div>
             <div className="order-1 bg-gray-100 drop-shadow-xl rounded-lg shadow-xl w-full sm:w-1/2 px-6 py-4">
               <h3 className="mb-2 font-bold text-gray-800 text-xl">Front-End Developer</h3>
@@ -26,7 +40,7 @@ const Experience = () => {
           <div className="mb-8 flex justify-between flex-row-reverse items-center w-full">
             <div className="order-1 sm:w-1/4"></div>
             <div className="z-20 mx-2 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 className="mx-auto text-white font-semibold text-lg">2</h1>
+              <h1 className="mx-auto text-white font-semibold text-lg">3</h1>
             </div>
             <div className="order-1 bg-gray-900 drop-shadow-xl rounded-lg shadow-xl w-full sm:w-1/2 px-6 py-4">
               <h3 className="mb-2 font-bold text-white text-xl">MLH Prep Fellow</h3>
@@ -40,7 +54,7 @@ const Experience = () => {
           <div className="mb-8 flex justify-between items-center w-full">
             <div className="order-1 sm:w-1/4"></div>
             <div className="z-20 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
+              <h1 className="mx-auto font-semibold text-lg text-white">4</h1>
             </div>
             <div className="order-1 bg-gray-100 drop-shadow-xl rounded-lg shadow-xl w-full sm:w-1/2 px-6 py-4">
               <h3 className="mb-2 font-bold text-gray-800 text-xl">Full-Stack Developer</h3>
@@ -55,7 +69,7 @@ const Experience = () => {
           <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 sm:w-1/4"></div>
             <div className="z-20 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 className="mx-auto text-white font-semibold text-lg">4</h1>
+              <h1 className="mx-auto text-white font-semibold text-lg">5</h1>
             </div>
             <div className="order-1 bg-gray-900 drop-shadow-xl rounded-lg shadow-xl w-full sm:w-1/2 px-6 py-4">
               <h3 className="mb-2 font-bold text-white text-xl">Hacker and Mentor</h3>
@@ -67,7 +81,7 @@ const Experience = () => {
           <div className="mb-8 flex justify-between items-center w-full right-timeline">
             <div className="order-1 sm:w-1/4"></div>
             <div className="z-20 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 className="mx-auto font-semibold text-lg text-white">5</h1>
+              <h1 className="mx-auto font-semibold text-lg text-white">6</h1>
             </div>
             <div className="order-1 bg-gray-100 drop-shadow-xl rounded-lg shadow-xl w-full sm:w-1/2 px-6 py-4">
               <h3 className="mb-2 font-bold text-gray-800 text-xl">Organising Team and Mentor</h3>
@@ -81,10 +95,10 @@ const Experience = () => {
           <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 sm:w-1/4"></div>
             <div className="z-20 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 className="mx-auto text-white font-semibold text-lg">6</h1>
+              <h1 className="mx-auto text-white font-semibold text-lg">7</h1>
             </div>
             <div className="order-1 bg-gray-900 drop-shadow-xl rounded-lg shadow-xl w-full sm:w-1/2 px-6 py-4">
-              <h3 className="mb-2 font-bold text-white text-xl">Web Dev Mentor</h3>
+              <h3 className="mb-2 font-bold text-white text-xl">Blockchain Head</h3>
               <h4 className="mb-2 font-bold text-white text-sm italic">Google Developer Student Clubs MAIT, CodeIn Community & GirlCodeIT MAIT <span className='px-2 font-light text-xs'>Feb 2022 - Present</span></h4>
               <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Mentor for the Web Dev Bootcamp conducted by these communities</p>
             </div>

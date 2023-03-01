@@ -11,7 +11,7 @@ const About = () => {
           gradient="from-[#D8B4FE] to-[#818CF8]"
         />
         <AboutCards
-          title="Open-Source Advocate and an active contributor to communities like MLH, GSoC Orgs (eg: Jitsi, GitLab, Zulip etc), GSSoC and more!"
+          title="Open-source advocate and an active contributor to communities like MLH, GSoC Orgs (eg: Jitsi, GitLab, Zulip etc), GSSoC and more!"
           gradient="from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
         />
         <AboutCards

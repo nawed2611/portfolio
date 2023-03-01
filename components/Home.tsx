@@ -12,7 +12,7 @@ const Home = () => {
                     </h1>
                     <h2 className="text-white mb-4">
                         Full-Stack Web3.0 Developer building{' '}
-                        <a href="https://www.10xfs.io/"><span className="font-semibold">Invade</span></a>
+                        <a href="https://www.paperbrain.study"><span className="font-semibold">PaperBrain</span></a>
                     </h2>
                     <p className="text-gray-200 mb-2">
                         Auth0 Ambassador, MLH Prep Fellow & Mentor
