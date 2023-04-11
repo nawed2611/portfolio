@@ -9,7 +9,7 @@ const Project = () => {
             <p className='p-2'>Check out My <a className="hover:underline hover:opacity-80" href="https://github.com/nawed2611">GitHub</a> and <a className="hover:underline hover:opacity-80" href="https://devpost.com/nawed2611">Devpost</a> for more projects!</p>
 
 
-            <div className="rounded-md container mt-10 mx-auto p-4 md:p-0 hover:scale-110">
+            <div className="rounded-md container mt-10 mx-auto p-4 md:p-0 hover:scale-105 transition-all">
                 <a href="https://tweepsbook.com">
                     <div className="shadow-lg rounded-md flex flex-wrap w-full mx-auto">
                         <div className="w-full md:w-1/3 h-64 md:h-auto relative">
@@ -36,7 +36,7 @@ const Project = () => {
                 </a>
             </div>
 
-            <div className="rounded-md container mt-10 mx-auto p-4 md:p-0 hover:scale-110">
+            <div className="rounded-md container mt-10 mx-auto p-4 md:p-0 hover:scale-105 transition-all">
                 <a href="https://paperbrain.study">
                     <div className="shadow-lg rounded-md flex flex-wrap w-full mx-auto">
                         <div className="w-full md:w-1/3 h-64 md:h-auto relative">
@@ -63,7 +63,7 @@ const Project = () => {
                 </a>
             </div>
 
-            <div className="rounded-md container mt-10 mx-auto p-4 md:p-0 hover:scale-110">
+            <div className="rounded-md container mt-10 mx-auto p-4 md:p-0 hover:scale-105 transition-all">
                 <a href="https://devpost.com/software/legalai-b7xjmo">
                     <div className="shadow-lg rounded-md flex flex-wrap w-full mx-auto">
                         <div className="w-full md:w-1/3 h-64 md:h-auto relative">
@@ -90,7 +90,7 @@ const Project = () => {
             </div>
 
 
-            <div className="rounded-md container mt-10 mx-auto p-4 md:p-0 hover:scale-110">
+            <div className="rounded-md container mt-10 mx-auto p-4 md:p-0 hover:scale-105 transition-all">
                 <a href="https://devpost.com/software/heartly-heaven">
                     <div className="shadow-lg rounded-md flex flex-wrap w-full mx-auto">
                         <div className="w-full md:w-1/3 h-64 md:h-auto relative">

@@ -21,7 +21,11 @@ const Home = () => {
                         Building awesome stuff via Open-Source, Web 3.0 and Hackathons.
                         Developer, Learner and Writer
                     </p>
-                    <iframe src="https://github.com/sponsors/nawed2611/button" title="Sponsor nawed2611" className='border-2 rounded-lg' height="35" width="116" />
+                    <div className='flex gap-4 items-center'>
+
+                        <iframe src="https://github.com/sponsors/nawed2611/button" title="Sponsor nawed2611" className='rounded-lg' height="35" width="116" />
+                        <a href="https://twitter.com/nawed2611" className="p-2 hover:scale-105 text-sm rounded-lg bg-[#1DA1F2]" data-show-count="false">Follow @nawed2611</a>
+                    </div>
                 </div>
 
                 <div className="w-[80px] sm:w-[176px] hover:scale-[1.02] relative mb-4 sm:mb-0 mr-auto">
