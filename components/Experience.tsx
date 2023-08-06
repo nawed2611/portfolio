@@ -15,7 +15,7 @@ const Experience = () => {
           </div>
           <div className="order-1 bg-gray-900 drop-shadow-xl rounded-lg shadow-xl w-full hover:scale-105 transition-all sm:w-1/2 px-6 py-4">
             <h3 className="mb-2 font-bold text-white text-xl">Program Manager</h3>
-            <h4 className="mb-2 font-bold text-white text-sm italic">GirlScript Summer of Code'23 <span className='px-2 font-light text-xs'>Oct 2022 - Mar 2023</span></h4>
+            <h4 className="mb-2 font-bold text-white text-sm italic">GirlScript Summer of Code'23 <span className='px-2 font-light text-xs'>April 2023 - Current</span></h4>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
               Served as the Program Manager for GirlScript Summer of Code'23, a 3-month long Open Source program for students to get involved in Open Source.
               Assisted over 12000+ participants and 200+ mentors to make their first contribution to Open Source.
