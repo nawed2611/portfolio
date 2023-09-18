@@ -15,7 +15,7 @@ export default function Index() {
         <Suspense fallback={<div>Loading...</div>}>
             <Navbar />
             <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.js">
-                <div className="flex mx-auto overflow-y-scroll rounded-lg h-[90vh] w-[64vw]">
+                <div className="flex mx-auto overflow-y-scroll rounded-lg h-[90vh] w-full sm:w-[64vw]">
                     <Viewer
                         fileUrl="/Nawed Ali.pdf"
 
