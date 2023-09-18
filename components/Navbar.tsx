@@ -2,8 +2,9 @@ import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import NextLink from "next/link";
-import { Link } from "react-scroll";
+import { Link as LinkScroll } from "react-scroll";
 import cn from "classnames";
+import Link from "next/link";
 
 function NavItem({ href, text }) {
   const router = useRouter();
@@ -65,14 +66,21 @@ export default function Container(props) {
           <div className="flex items-center justify-evenly w-full p-2 border-gray-700 rounded-lg ml-[-0.60rem]">
             <NavItem href="/" text="Home" />
             <NavItem href="https://nawedali.hashnode.dev/" text="Blog" />
-            <Link to="experiences" spy={true} smooth={true}>
+            <LinkScroll to="experiences" spy={true} smooth={true}>
               <p className="hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-800 transition-all text-gray-400 hover:cursor-pointer">
                 Experiences
               </p>
-            </Link>
-            <Link to="projects" spy={true} smooth={true}>
+            </LinkScroll>
+            <LinkScroll to="projects" spy={true} smooth={true}>
               <p className="md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-800 transition-all text-gray-400 hover:cursor-pointer">
                 Projects
+              </p>
+            </LinkScroll>
+            <Link
+              href="/resume"
+            >
+              <p className="md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-800 transition-all text-gray-400 hover:cursor-pointer">
+                Resume
               </p>
             </Link>
             <NavItem href="https://github.com/nawed2611" text="GitHub" />
