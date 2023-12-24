@@ -1,4 +1,6 @@
 import React from 'react';
+
+
 import '../styles/globals.css';
 
 // Import the styles

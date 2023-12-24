@@ -12,7 +12,7 @@ function NavItem({ href, text }) {
 
   return (
     <NextLink href={href}>
-      <a
+      <span
         className={cn(
           isActive
             ? "font-semibold text-gray-200"
@@ -21,7 +21,7 @@ function NavItem({ href, text }) {
         )}
       >
         <span className="capsize">{text}</span>
-      </a>
+      </span>
     </NextLink>
   );
 }

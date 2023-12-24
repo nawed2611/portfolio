@@ -45,6 +45,15 @@ const data = [
     link: "https://auth0.com/ambassador-program",
     imageSource: "https://res.cloudinary.com/practicaldev/image/fetch/s--3Iy2AV-M--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zdzw2bojjz0s9yj5am6o.jpg",
     description: "Serving as an Auth0 Ambassador to help developers build secure applications using Auth0"
+  },
+  {
+    index: 6,
+    title: "Core Team Member",
+    company: "Web3 Conf India, GirlScript Foundation, GirlScript Summer of Code, Google Developer Student Clubs MAIT",
+    duration: "February 2022 - March 2023",
+    link: "https://www.linkedin.com/company/girlscript-foundation/?originalSubdomain=in",
+    imageSource: "https://dcmsblog.uk/wp-content/uploads/2020/07/GIRLSCRIPT.TECH_.png",
+    description: "Mentoring students through programs conducted by these communities"
   }
 ]
 const Experience = () => {
