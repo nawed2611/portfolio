@@ -11,11 +11,11 @@ const Home = () => {
                         Nawed Ali
                     </h1>
                     <h2 className="text-white mb-4">
-                        Full-Stack Web3.0 Developer building{' '}
+                        Software Engineer <a href="https://listnr.ai/" className='font-bold'>Listnr</a> building{' '}
                         <a href="https://www.paperbrain.study"><span className="font-semibold">PaperBrain</span></a>
                     </h2>
                     <p className="text-gray-200 mb-2">
-                        Auth0 Ambassador, MLH Prep Fellow & Mentor
+                        Auth0 Ambassador, MLH Fellow'22 & Mentor
                     </p>
                     <p className="text-gray-200 mb-8">
                         Building awesome stuff via Open-Source, Web 3.0 and Hackathons.

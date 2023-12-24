@@ -1,148 +1,72 @@
 import React from 'react'
 
+const data = [
+  {
+    index: 1,
+    title: "Software Engineer",
+    company: "Listnr.AI",
+    duration: "December 2023 - Present",
+    link: "https://listnr.ai/",
+    imageSource: "https://ph-files.imgix.net/e92dffcb-c365-44f7-b8e6-390ddf290d7e.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&fit=max&dpr=2",
+    description: "Listnr helps users create realistic AI content, choose from over 900+ voices in 142 languages. We serve more than 1.2 million users across the world"
+  },
+  {
+    index: 2,
+    title: "Full-Stack Developer Intern",
+    company: "Logizip LLC",
+    duration: "October 2022 - November 2023",
+    link: "https://logizip.io/",
+    imageSource: "https://github.com/nawed2611/nawed2611/assets/83456083/74851f65-23f0-4cc6-b709-a78c77af9ac2",
+    description: "Trucking logistics solutions platform to automate transport workflows. Scaled the backend service with optimizations and implemented sockets with cached search. Engineered the full-stack code along with onboarding private alpha users with an increase of 200% in web app traction."
+  },
+  {
+    index: 3,
+    title: "MLH Fellow and Hackathon Mentor",
+    company: "Major League Hacking",
+    duration: "August 2022 - Present",
+    link: "https://fellowship.mlh.io/",
+    imageSource: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoTIDnxbCy8IDqJjQyMBFVddwTrBRgVYFTuQ&usqp=CAU",
+    description: "Part of the Aug Prep Fellowship Batch where I got to work on open-source projects with fellow pod mates. Mentoring first-party hackathons hosted by MLH"
+  },
+  {
+    index: 4,
+    title: "Program Manager",
+    company: "GirlScript Summer of Code'23",
+    duration: "April 2023 - September 2023",
+    link: "https://gssoc.girlscript.tech/",
+    imageSource: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210406180435/What-is-GirlScript-Summer-of-Code-and-How-to-Participate.png",
+    description: "Serving as the Program Manager for GirlScript Summer of Code'23, a 3-month long Open Source program for students to get involved in Open Source. Assisting over 12000+ participants and 200+ mentors to make their first contribution to Open Source."
+  },
+  {
+    index: 5,
+    title: "Auth0 Ambassador",
+    company: "Auth0",
+    duration: "October 2022 - March 2023",
+    link: "https://auth0.com/ambassador-program",
+    imageSource: "https://res.cloudinary.com/practicaldev/image/fetch/s--3Iy2AV-M--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zdzw2bojjz0s9yj5am6o.jpg",
+    description: "Serving as an Auth0 Ambassador to help developers build secure applications using Auth0"
+  }
+]
 const Experience = () => {
   return (
     <div className='flex flex-col max-w-5xl items-start justify-center mx-auto mt-12 experiences'>
       <h1 className="font-bold text-xl mx-2 md:text-5xl tracking-tight mb-1 text-white">
         My Experiences
       </h1>
-      <div className="container mx-auto h-full">
-
-        <div className="mb-8 mt-4 flex justify-between flex-row-reverse items-center w-full">
-          <div className="order-1 sm:w-1/4"></div>
-          <div className="z-20 mx-2 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto text-white font-semibold text-lg">1</h1>
-          </div>
-          <div className="order-1 bg-gray-900 drop-shadow-xl rounded-lg shadow-xl w-full hover:scale-105 transition-all sm:w-1/2 px-6 py-4">
-            <h3 className="mb-2 font-bold text-white text-xl">Program Manager</h3>
-            <h4 className="mb-2 font-bold text-white text-sm italic">GirlScript Summer of Code'23 <span className='px-2 font-light text-xs'>April 2023 - Present</span></h4>
-            <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-              Served as the Program Manager for GirlScript Summer of Code'23, a 3-month long Open Source program for students to get involved in Open Source.
-              Assisted over 12000+ participants and 200+ mentors to make their first contribution to Open Source.
-            </p>
-          </div>
-        </div>
-
-        <div className="mb-8 flex justify-between items-center w-full">
-          <div className="order-1 sm:w-1/4"></div>
-          <div className="z-20 mx-2 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto font-semibold text-lg text-white">2</h1>
-          </div>
-          <div className="order-1 bg-gray-100 drop-shadow-xl rounded-lg shadow-xl w-full hover:scale-105 transition-all sm:w-1/2 px-6 py-4">
-            <h3 className="mb-2 font-bold text-gray-800 text-xl">Full Stack Developer</h3>
-            <h4 className="mb-2 font-semibold text-gray-800 text-sm italic">Logizip LLC <span className='px-2 font-light text-xs'>Oct 2022 - Present</span></h4>
-            <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              Stack - AWS, TypeScript, Next.js, React Native
-            </p>
-          </div>
-        </div>
-
-        <div className="mb-8 mt-4 flex justify-between flex-row-reverse items-center w-full">
-          <div className="order-1 sm:w-1/4"></div>
-          <div className="z-20 mx-2 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto text-white font-semibold text-lg">3</h1>
-          </div>
-          <div className="order-1 bg-gray-900 drop-shadow-xl rounded-lg shadow-xl w-full hover:scale-105 transition-all sm:w-1/2 px-6 py-4">
-            <h3 className="mb-2 font-bold text-white text-xl">Auth0 Ambassador</h3>
-            <h4 className="mb-2 font-bold text-white text-sm italic">Auth0 <span className='px-2 font-light text-xs'>Oct 2022 - Mar 2023</span></h4>
-            <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-              Served as an Auth0 Ambassador to help developers build secure applications using Auth0
-            </p>
-          </div>
-        </div>
-
-        <div className="mb-8 flex justify-between items-center w-full">
-          <div className="order-1 sm:w-1/4"></div>
-          <div className="z-20 mx-2 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto font-semibold text-lg text-white">4</h1>
-          </div>
-          <div className="order-1 bg-gray-100 drop-shadow-xl rounded-lg shadow-xl w-full hover:scale-105 transition-all sm:w-1/2 px-6 py-4">
-            <h3 className="mb-2 font-bold text-gray-800 text-xl">Front-End Developer</h3>
-            <h4 className="mb-2 font-semibold text-gray-800 text-sm italic">10xfs <span className='px-2 font-light text-xs'>June 2022 - Oct 2022</span></h4>
-            <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-              A private workspace to help founders get the most out of their investors, advisors, friends and network
-            </p>
-            <p className="text-sm mt-2 leading-snug tracking-wide text-gray-900 text-opacity-100">
-              Stack - TypeScript, Next.js, TailwindCSS
-            </p>
-          </div>
-        </div>
-
-        <div className="mb-8 flex justify-between flex-row-reverse items-center w-full">
-          <div className="order-1 sm:w-1/4"></div>
-          <div className="z-20 mx-2 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto text-white font-semibold text-lg">5</h1>
-          </div>
-          <div className="order-1 bg-gray-900 drop-shadow-xl rounded-lg shadow-xl w-full hover:scale-105 transition-all sm:w-1/2 px-6 py-4">
-            <h3 className="mb-2 font-bold text-white text-xl">MLH Prep Fellow and Hackathon Mentor</h3>
-            <h4 className="mb-2 font-bold text-white text-sm italic">Major League Hacking <span className='px-2 font-light text-xs'>Aug 2022</span></h4>
-            <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-              - Part of the Aug Prep Fellowship Batch where I got to work on open-source projects with fellow pod mates
-            </p>
-            <p className="text-sm mt-2 font-medium leading-snug tracking-wide text-white text-opacity-100">
-              - Mentoring first-party hackathons hosted by MLH
-            </p>
-          </div>
-        </div>
-
-        <div className="mb-8 flex justify-between items-center w-full">
-          <div className="order-1 sm:w-1/4"></div>
-          <div className="z-20 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto font-semibold text-lg text-white">6</h1>
-          </div>
-          <div className="order-1 bg-gray-100 drop-shadow-xl rounded-lg shadow-xl w-full hover:scale-105 transition-all sm:w-1/2 px-6 py-4">
-            <h3 className="mb-2 font-bold text-gray-800 text-xl">Full-Stack Developer</h3>
-            <h4 className="mb-2 font-semibold text-gray-800 text-sm italic">TweepsBook <span className='px-2 font-light text-xs'>June 2022 - Aug 2022</span></h4>
-            <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-              TweepsBook, an enhanced bookmarking tool to power Twitter users that helps you
-              streamline the clutter by adding different tags and organize tweets based on your liking
-            </p>
-            <p className="text-sm mt-2 leading-snug tracking-wide text-gray-900 text-opacity-100">
-              Stack - TypeScript, Next.js, TailwindCSS
-            </p>
-          </div>
-        </div>
-
-        <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-          <div className="order-1 sm:w-1/4"></div>
-          <div className="z-20 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto text-white font-semibold text-lg">7</h1>
-          </div>
-          <div className="order-1 bg-gray-900 drop-shadow-xl rounded-lg shadow-xl w-full hover:scale-105 transition-all sm:w-1/2 px-6 py-4">
-            <h3 className="mb-2 font-bold text-white text-xl">Hacker and Mentor</h3>
-            <h4 className="mb-2 font-bold text-white text-sm italic">Major League Hacking <span className='px-2 font-light text-xs'>Feb 2022 - Present</span></h4>
-            <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Took part in more than 20 Hackathons hosted and sponsored by MLH as a hacker and as a mentor. Won prizes like "Most Creative Use of Twilio", "Best use of DeSo" and much more</p>
-          </div>
-        </div>
-
-        <div className="mb-8 flex justify-between items-center w-full right-timeline">
-          <div className="order-1 sm:w-1/4"></div>
-          <div className="z-20 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto font-semibold text-lg text-white">8</h1>
-          </div>
-          <div className="order-1 bg-gray-100 drop-shadow-xl rounded-lg shadow-xl w-full hover:scale-105 transition-all sm:w-1/2 px-6 py-4">
-            <h3 className="mb-2 font-bold text-gray-800 text-xl">Organising Team and Mentor</h3>
-            <h4 className="mb-2 font-semibold text-gray-800 text-sm italic">GirlScript Summer of Code'2022 <span className='px-2 font-light text-xs'>June 2022 - Present</span></h4>
-            <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-              Part of the Organising team as a writer and as a mentor for over 5k contributors who took part in the program
-            </p>
-          </div>
-        </div>
-
-        <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-          <div className="order-1 sm:w-1/4"></div>
-          <div className="z-20 hidden sm:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto text-white font-semibold text-lg">9</h1>
-          </div>
-          <div className="order-1 bg-gray-900 drop-shadow-xl rounded-lg shadow-xl w-full hover:scale-105 transition-all sm:w-1/2 px-6 py-4">
-            <h3 className="mb-2 font-bold text-white text-xl">Blockchain Lead</h3>
-            <h4 className="mb-2 font-bold text-white text-sm italic">Google Developer Student Clubs MAIT, CodeIn Community & GirlCodeIT MAIT <span className='px-2 font-light text-xs'>Feb 2022 - Present</span></h4>
-            <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Mentoring students through programs conducted by these communities</p>
-          </div>
-        </div>
+      <div className="container flex flex-wrap justify-center gap-4 py-4 h-full">
+        {
+          data.map((item) => (
+            <div onClick={(e) => window.open(`${item.link}`)} className="order-1 bg-gray-100 drop-shadow-xl rounded-lg hover:cursor-pointer shadow-xl w-full sm:w-[45%] px-6 py-4">
+              <img src={item.imageSource} className="w-full h-auto rounded-lg mb-2" />
+              <h3 className="mb-2 font-bold text-gray-800 text-xl">{item.title}</h3>
+              <h4 className="mb-2 font-semibold text-gray-800 text-sm italic">{item.company} <span className='px-2 font-light text-xs'>{item.duration}</span></h4>
+              <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">{item.description}</p>
+            </div>
+          ))
+        }
 
       </div>
-    </div>
+    </div >
   )
 }
 
