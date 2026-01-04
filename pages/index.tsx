@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from "react";
+import Head from "next/head";
 import WorkCard from "../components/WorkCard";
 import ShaderBackground from "../components/ShaderBackground";
 import AsciiArt from "../components/AsciiArt";
@@ -48,8 +49,12 @@ export default function Index() {
   const heroRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {
+    if (isDarkMode) {
       document.body.classList.add('dark');
-  }, []);
+    } else {
+      document.body.classList.remove('dark');
+    }
+  }, [isDarkMode]);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -73,6 +78,40 @@ export default function Index() {
         ? 'text-[#e0e0e0]' 
         : 'text-[#1a1a1a]'
     }`}>
+      <Head>
+        <title>Nawed Ali - Software Engineer</title>
+        <meta name="description" content="Nawed Ali is a Software Engineer at Clueso (YC W23). Building products that matter." />
+        <meta name="keywords" content="Nawed Ali, Software Engineer, Clueso, Developer, Full Stack, React, Next.js" />
+        <meta name="author" content="Nawed Ali" />
+        
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://nawedali.com/" />
+        <meta property="og:title" content="Nawed Ali" />
+        <meta property="og:description" content="Building..." />
+        <meta property="og:image" content="https://nawedali.com/profile.png" />
+        <meta property="og:site_name" content="Nawed Ali" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@nawed2611" />
+        <meta name="twitter:creator" content="@nawed2611" />
+        <meta name="twitter:title" content="Nawed Ali" />
+        <meta name="twitter:description" content="Building..." />
+        <meta name="twitter:image" content="https://nawedali.com/profile.png" />
+        
+        {/* Theme */}
+        <meta name="theme-color" content="#000000" />
+        <meta name="msapplication-TileColor" content="#000000" />
+        
+        {/* Canonical */}
+        <link rel="canonical" href="https://nawedali.com/" />
+      </Head>
+
       {/* Shader background */}
       <ShaderBackground isDarkMode={isDarkMode} />
 
